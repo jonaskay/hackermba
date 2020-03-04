@@ -13,9 +13,9 @@ body {
   min-height: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   body {
-    background: linear-gradient(-45deg, #fff, #f8f9fa);
+    background: linear-gradient(-45deg, #fff, #f1f3f5);
   }
 }
 
