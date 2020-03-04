@@ -15,8 +15,8 @@ const Header = () => (
           of software
         </h2>
         <p className="text-lg md:text-xl mb-2 lg:mb-12">
-          These are the real-life lessons on building and managing software you
-          won't learn at university.
+          Real-life lessons on building and managing software they don't teach
+          you at university.
         </p>
       </div>
     </header>
