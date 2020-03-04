@@ -12,7 +12,7 @@ const IndexPage = () => (
         <Image />
       </div>
       <div className="max-w-lg ml-16 mt-12 inline-block align-top">
-        <h2 className="text-3xl font-semibold leading-tight mb-6">
+        <h2 className="text-3xl font-semibold leading-snug mb-6">
           New podcast for people who want to broaden their skills in the world
           of software
         </h2>
