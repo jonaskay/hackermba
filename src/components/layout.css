@@ -21,9 +21,8 @@ body {
 
 @tailwind components;
 
-.header-cover {
-  background: linear-gradient(#343a40, #495057);
-}
-
 @tailwind utilities;
 
+.bg-gray-8-gray-7 {
+  background: linear-gradient(#343a40, #495057);
+}

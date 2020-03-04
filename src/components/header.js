@@ -4,7 +4,7 @@ import Image from "../components/image"
 
 const Header = () => (
   <>
-    <div className="header-cover absolute top-0 w-full h-64 md:hidden"></div>
+    <div className="bg-gray-8-gray-7 absolute top-0 w-full h-64 md:hidden"></div>
     <header className="mx-auto px-4 lg:px-0 w-full max-w-xs md:max-w-2xl lg:max-w-4xl">
       <div className="md:pr-8 lg:pr-0 w-full max-w-xs mx-auto mb-8 md:m-0 md:inline-block md:align-top">
         <Image />
