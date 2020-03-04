@@ -23,8 +23,8 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container mx-auto px-4 sm:px-8">
-      <main className="max-w-4xl mx-auto">{children}</main>
+    <div className="md:container md:mx-auto">
+      <main className="relative max-w-4xl mx-auto">{children}</main>
     </div>
   )
 }

@@ -1,42 +1,26 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+import Image from "../components/image"
+
+const Header = () => (
+  <>
+    <div className="header-cover absolute top-0 w-full h-64 md:hidden"></div>
+    <header className="mx-auto px-4 lg:px-0 w-full max-w-xs md:max-w-2xl lg:max-w-4xl">
+      <div className="md:pr-8 lg:pr-0 w-full max-w-xs mx-auto mb-8 md:m-0 md:inline-block md:align-top">
+        <Image />
+      </div>
+      <div className="relative z-1 max-w-xs lg:max-w-lg md:inline-block md:align-bottom lg:ml-16 lg:mt-8">
+        <h2 className="text-2xl md:text-3xl font-semibold leading-snug mb-4 lg:mb-6">
+          New podcast for people who want to broaden their skills in the world
+          of software
+        </h2>
+        <p className="text-lg md:text-xl mb-2 lg:mb-12">
+          These are the real-life lessons on building and managing software you
+          won't learn at university.
+        </p>
+      </div>
+    </header>
+  </>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

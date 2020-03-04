@@ -4,6 +4,10 @@
 
 @tailwind components;
 
+.header-cover {
+  background: linear-gradient(#0ca678, #20c997);
+}
+
 @tailwind utilities;
 
 html, body {
@@ -11,9 +15,14 @@ html, body {
 }
 
 body {
-  @apply .bg-white .text-gray-9;
+  @apply .bg-gray-0 .text-gray-9;
 
-  background: linear-gradient(-45deg, #fff, #f8f9fa);
   font-family: 'Rubik', sans-serif;
   min-height: 100%;
+}
+
+@media (min-width: 640px) {
+  body {
+    background: linear-gradient(-45deg, #fff, #f8f9fa);
+  }
 }
