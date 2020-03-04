@@ -13,7 +13,7 @@ const Form = () => (
       novalidate
     >
       <div id="mc_embed_signup_scroll" className="inline-block">
-        <div className="mc-field-group inline-block">
+        <div className="mc-field-group inline-block w-full md:w-auto">
           <label htmlFor="mce-EMAIL" className="inline-block mb-1">
             Email
           </label>
