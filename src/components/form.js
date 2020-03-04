@@ -1,7 +1,7 @@
 import React from "react"
 
 const Form = () => (
-  <div id="mc_embed_signup" className="inline-block text-left lg:ml-6">
+  <div id="mc_embed_signup" className="inline-block text-left">
     <form
       action="https://hackermba.us19.list-manage.com/subscribe/post?u=b38920bd69f42a9816e14ddce&amp;id=0e55a064bd"
       method="post"

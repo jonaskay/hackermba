@@ -5,8 +5,8 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <div className="md:container md:mx-auto">
-      <main className="relative max-w-4xl mx-auto">{children}</main>
+    <div className="lg:container lg:mx-auto">
+      <main className="relative">{children}</main>
     </div>
   )
 }
