@@ -23,8 +23,9 @@ const IndexPage = () => (
         </ul>
         <div className="text-center lg:text-left">
           <p className="text-lg italic leading-relaxed mb-4">
-            HackerMBA is work-in-progress. You can get notified when the first
-            episode is out by subscribing to our pre-launch email list below.
+            HackerMBA is still work-in-progress. You can get notified when the
+            first episode is out by subscribing to our pre-launch email list
+            below.
           </p>
           <Form />
         </div>
