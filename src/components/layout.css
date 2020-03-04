@@ -2,14 +2,6 @@
 
 @tailwind base;
 
-@tailwind components;
-
-.header-cover {
-  background: linear-gradient(#343a40, #495057);
-}
-
-@tailwind utilities;
-
 html, body {
   min-height: 100%;
 }
@@ -26,3 +18,12 @@ body {
     background: linear-gradient(-45deg, #fff, #f8f9fa);
   }
 }
+
+@tailwind components;
+
+.header-cover {
+  background: linear-gradient(#343a40, #495057);
+}
+
+@tailwind utilities;
+
