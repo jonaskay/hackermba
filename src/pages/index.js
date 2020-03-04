@@ -8,7 +8,7 @@ import Form from "../components/form"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="py-8 md:py-16 lg:py-8">
+    <div className="pb-16 pt-8 md:pt-16 lg:pt-8">
       <Header />
       <div className="hidden lg:inline-block lg:w-full lg:max-w-xs"></div>
       <div className="lg:inline-block lg:align-top max-w-xs md:max-w-md lg:max-w-lg mx-auto lg:ml-16 lg:mr-0 mt-6 md:mt-12 lg:-mt-6 px-4 md:px-0">
