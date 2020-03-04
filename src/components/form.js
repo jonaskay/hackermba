@@ -3,14 +3,13 @@ import React from "react"
 const Form = () => (
   <div id="mc_embed_signup" className="inline-block text-left lg:ml-6">
     <form
-      form
       action="https://hackermba.us19.list-manage.com/subscribe/post?u=b38920bd69f42a9816e14ddce&amp;id=0e55a064bd"
       method="post"
       id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
       className="validate inline-block"
       target="_blank"
-      novalidate
+      noValidate
     >
       <div id="mc_embed_signup_scroll" className="inline-block">
         <div className="mc-field-group inline-block w-full md:w-auto">
@@ -20,7 +19,6 @@ const Form = () => (
           <br />
           <input
             type="email"
-            value=""
             name="EMAIL"
             className="required email border border-teal-8 rounded px-2 py-1 mr-2 mb-2 md:mb-0 w-full md:w-auto"
             id="mce-EMAIL"
@@ -42,8 +40,9 @@ const Form = () => (
           <input
             type="text"
             name="b_b38920bd69f42a9816e14ddce_0e55a064bd"
-            tabindex="-1"
+            tabIndex="-1"
             value=""
+            readOnly
           />
         </div>
         <div className="clear inline-block text-center md:text-left w-full md:w-auto">
