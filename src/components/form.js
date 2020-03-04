@@ -51,7 +51,7 @@ const Form = () => (
             value="Notify me!"
             name="subscribe"
             id="mc-embedded-subscribe"
-            className="button cursor-pointer shadow-xs border border-teal-7 bg-teal-7 text-gray-0 px-2 py-1 rounded"
+            className="button cursor-pointer shadow-xs border border-teal-7 bg-teal-7 text-gray-0 px-2 py-1 rounded md:mr-4 lg:mr-0"
           />
         </div>
       </div>
