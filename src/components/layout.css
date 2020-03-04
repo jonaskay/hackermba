@@ -5,7 +5,7 @@
 @tailwind components;
 
 .header-cover {
-  background: linear-gradient(#0ca678, #20c997);
+  background: linear-gradient(#343a40, #495057);
 }
 
 @tailwind utilities;
