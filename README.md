@@ -25,3 +25,7 @@ To start the development server, run
 To build the project, run
 
     $ yarn build
+
+## Deployment
+
+The site is built and deployed after each push to `master`.
