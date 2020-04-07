@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-postcss": "^2.2.1",
-    "prettier": "^2.0.2",
+    "prettier": "^2.0.4",
     "tailwindcss": "^1.2.0",
     "tailwindcss-open-color": "^1.0.1"
   },
