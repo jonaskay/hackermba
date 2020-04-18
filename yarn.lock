@@ -12836,10 +12836,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss-open-color@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/tailwindcss-open-color/-/tailwindcss-open-color-1.0.1.tgz#9b26c132d99dfaf6632d97f01b95055ab5554f44"
-  integrity sha512-mQP10gacWcrayKXvzNMNMI4joFhNxUvt31O38ty0mUyzUlujED/lDhNZNyjMqNkGKWczaSiDQTD2YKwtNbCXWA==
+tailwindcss-open-color@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss-open-color/-/tailwindcss-open-color-1.0.2.tgz#d24390d8465c85250c8d4afeefd72ecd15515e1b"
+  integrity sha512-rWW9zX+qCW080WSVWMMYYgms5tJGxzSiYzNbRD1Kua6VmrAEw4LYYS4gLiOctJSD85nePogq4PeBuYS6/czicQ==
   dependencies:
     open-color "^1.7.0"
 
