@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "jonaskay <jonaskay@iki.fi>",
   "dependencies": {
-    "gatsby": "^2.20.23",
+    "gatsby": "^2.20.26",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-manifest": "^2.3.5",
     "gatsby-plugin-offline": "^3.0.32",
